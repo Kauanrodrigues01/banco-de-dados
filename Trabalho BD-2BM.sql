@@ -1,9 +1,9 @@
 create database trabalho_Kauan_rodrigues 
 default character set utf8 
 default collate utf8_general_ci;
-use trabalho_Kauan_rodrigues ;
+use trabalho_Kauan_rodrigues;
 
--- 1.Criação de tabelas e estrutura do banco de daos
+-- 1.Criação de tabelas e estrutura do banco de dados
 create table if not exists tbSala(
 	num_sala int primary key auto_increment,
     desc_sala varchar(20) not null,
