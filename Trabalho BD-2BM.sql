@@ -82,9 +82,6 @@ insert into tbSalaFilme (data_filme, horario, num_sala, codigo_filme) values
 ('2010-11-15', '10:00:00', '12', '1'), ('2010-04-20', '10:00:00', '9', '4'), 
 ('2010-05-14', '10:00:00', '8', '6'), ('2010-05-16', '10:00:00', '5', '5');
 
--- 3.
-select nome_diretor as diretor from tbDiretor;
-
 -- 4.
 select nome_filme as filme from tbFilme 
 where categoria_filme = 'Terror';
